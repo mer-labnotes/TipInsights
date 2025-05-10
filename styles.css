@@ -1,0 +1,56 @@
+/* Estilo general */
+
+body {
+  background-color:	#f5f5f0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Título pral */
+
+.mi-titulo {
+    font-size:2.2rem;
+    font-weight:bold;
+    color: #384f4f;
+    margin-bottom: 1.5rem 0 0.5rem;
+    text-align: left; 
+}
+
+/* Tarjetas */
+
+.card {
+  background-color: #fffdf6;
+  border-radius: 12px;
+  border: 1px solid #dad4d4;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+    background: linear-gradient(to right, #133a65, #4facfe);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.75rem 1rem;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+/* Color de fondo para la barra lateral */
+root {
+  --bslib-sidebar-main-bg: #f8f8f8;  
+}
+
+.popover {
+  --bs-popover-header-bg: #007bff;;      /* Color de fondo para cabeceras de popovers */
+  --bs-popover-header-color: #fff;   /* Color de texto para cabeceras de popovers */
+}
+
+.popover .btn-close {
+  filter: var(--bs-btn-close-white-filter);  /* Filtro para botón de cierre */
+}
+
+/* ---------- Iconos dentro de cajas ---------- */
+.value-box .showcase {
+    font-size: 2rem;
+    opacity: 0.8;
+    margin-bottom: 0.5rem;
+}
